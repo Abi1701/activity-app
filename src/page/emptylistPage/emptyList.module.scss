@@ -1,0 +1,146 @@
+.emptyList{
+  width: 100%;
+  height: 100vh;
+  background-color: #f5f5f5;
+  display: flex;
+}
+.emptyListContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.activityBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap: 50%;
+  margin-top: 1rem;
+}
+.activityTittle{
+  height: 50px;
+}
+.activityPlus {
+  display: flex;
+  flex-direction: row;
+  background-color: #16ABF8;
+  border-radius: 20px;
+  width: 200px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+}
+
+.plusImg {
+  width: 50px;
+  height: 50px;
+}
+
+.plusTittle {
+  text-decoration: none;
+  color: #E4E4E4;
+  list-style: none;
+}
+.hair{
+  position: absolute;
+  top: 45%;
+  left: 25%;
+}
+.head{
+  position: absolute;
+  top: 46%;
+  left: 26%;
+}
+.poni{
+  position: absolute;
+  top: 45.7%;
+  left: 26%;
+}
+.body{
+  position: absolute;
+  top: 52%;
+  left: 25%;
+}
+.leftArms{
+  position: absolute;
+  top: 52.5%;
+  left: 24%;
+}
+.leftShoulder{
+  position: absolute;
+  top: 52.5%;
+  left: 24.5%;
+}
+.rightArms{
+  position: absolute;
+  top: 53%;
+  left: 28.2%;
+}
+.rightShoulder{
+  position: absolute;
+  top: 52.5%;
+  left: 28.5%;
+}
+.pants{
+  position: absolute;
+  top: 60%;
+  left: 23.8%;
+}
+.shoes1{
+  position: absolute;
+  top: 86.5%;
+  left: 28%;
+}
+.shoes2{
+  position: absolute;
+  top: 85.5%;
+  left: 23.5%;
+}
+.illustrationContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  gap: 20px;
+}
+.boxIllustration{
+  width: 300px;
+  background: #FFFFFF;
+  border: 1px solid #CACACA;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.barIllustration{
+  background: #E6E6E6;
+  width: 200px;
+  height: 10px;
+  border-radius: 20px;
+}
+.border{
+  position: absolute;
+  left: 20%;
+  top: 88%;
+  width: 1000px;
+}
+.leaf1 {
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  left: 70%;
+  top: 75%;
+}
+
+.leaf2 {
+  width: 80px;
+  height: 50px;
+  position: absolute;
+  left: 65%;
+    top: 80%;
+}
